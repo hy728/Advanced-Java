@@ -60,3 +60,21 @@ In the hospitality industry, efficient management of hotel rooms and reservation
 1. **Room Management**: The system allows hotel administrators to manage room information, including room numbers, prices, and room types. They can also mark rooms as available or unavailable based on maintenance schedules or other factors.
 2. **Reservation Handling**: Guests can search for available rooms by specifying check - in and check - out dates. The system will display all available rooms and their prices. Guests can then make reservations directly through the platform. Hotel staff can also manage reservations, including confirming, modifying, or canceling them.
 3. **Multilingual Support**: To cater to international guests, the application provides multilingual support. Guests can choose their preferred language to view welcome messages and use the application. (Author: [liyouyang])
+
+Commit Message
+"Review and improvement of the English README project introduction, enhancing language accuracy and clarity."
+
+# Project Introduction
+
+## Background
+In the highly competitive hospitality sector, efficient management of hotel rooms and reservations is of utmost importance for delivering superior services to guests. The Landon Hotel, in an effort to optimize its operations and elevate the customer experience, has embarked on the development of this application. With the intensifying market competition, the hotel requires a comprehensive system that can effectively manage room availability, handle reservations, and offer a user - friendly interface for guests to search and book rooms. This project is designed to address these requirements and keep pace with the digital transformation trend in the hospitality industry. (Author: [Your Name])
+
+## Objectives
+1. **Enhanced Operational Efficiency**: Automate the room management and reservation handling processes to minimize manual errors and save valuable time for hotel staff.
+2. **Improved Customer Experience**: Provide guests with an intuitive platform that enables them to effortlessly search for available rooms, view detailed room information, and make reservations at their convenience.
+3. **Data - Driven Decision Making**: Gather and analyze data on room occupancy, reservation trends, and customer preferences to support informed strategic decision - making for the hotel. (Author: [Your Name])
+
+## Function Overview
+1. **Room Management**: The system empowers hotel administrators to manage room details such as room numbers, prices, and room categories. They can also update the room availability status based on maintenance schedules or other relevant factors.
+2. **Reservation Handling**: Guests can search for available rooms by specifying their check - in and check - out dates. The system will promptly display all available rooms along with their corresponding prices. Guests can then make reservations directly through the platform. Hotel staff can manage reservations comprehensively, including confirmation, modification, and cancellation.
+3. **Multilingual Support**: To accommodate international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and utilize the application seamlessly. (Author: [Your Name])
