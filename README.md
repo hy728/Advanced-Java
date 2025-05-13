@@ -42,3 +42,21 @@ Reservation Handling: Guests can easily search for available rooms by specifying
 Multilingual Support: To cater to international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and use the application. This feature ensures that guests from different cultural backgrounds can easily understand and interact with the application.
 Unit and End - to - End Testing: The application comes with built - in support for unit and end - to - end testing. Developers can run unit tests using ng test via [Karma](https://karma - runner.github.io), and end - to - end tests using ng e2e after adding the necessary testing package. (Author: [liyouyang])
 
+Commit Message
+"Initial commit of the English README project introduction, including background, objectives, and function overview."
+Code Changes
+markdown
+# Project Introduction
+
+## Background
+In the hospitality industry, efficient management of hotel rooms and reservations is crucial for providing high - quality services to guests. The Landon Hotel, aiming to streamline its operations and enhance customer experience, has initiated the development of this application. As the market becomes more competitive, the hotel needs a comprehensive system to manage room availability, handle reservations, and provide a user - friendly interface for guests to search and book rooms. This project is developed to meet these needs and adapt to the digital transformation trend in the hospitality industry. (Author: [Your Name])
+
+## Objectives
+1. **Enhanced Operational Efficiency**: Automate the process of room management and reservation handling, reducing manual errors and saving time for hotel staff.
+2. **Improved Customer Experience**: Provide guests with an easy - to - use platform to search for available rooms, view room details, and make reservations at any time.
+3. **Data - Driven Decision Making**: Collect and analyze data related to room occupancy, reservation patterns, and customer preferences to support strategic decision - making for the hotel. (Author: [Your Name])
+
+## Function Overview
+1. **Room Management**: The system allows hotel administrators to manage room information, including room numbers, prices, and room types. They can also mark rooms as available or unavailable based on maintenance schedules or other factors.
+2. **Reservation Handling**: Guests can search for available rooms by specifying check - in and check - out dates. The system will display all available rooms and their prices. Guests can then make reservations directly through the platform. Hotel staff can also manage reservations, including confirming, modifying, or canceling them.
+3. **Multilingual Support**: To cater to international guests, the application provides multilingual support. Guests can choose their preferred language to view welcome messages and use the application. (Author: [liyouyang])
