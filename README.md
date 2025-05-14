@@ -28,3 +28,12 @@ If you need additional support, please navigate to the course page and reach out
 Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
 
 ![这是图片](Docker_Container_Stats.png "Magic Gardens")
+
+
+<!--by 陆玟颖-->
+# Installation and Deployment
+## Prerequisites
+# Installation and Deployment
+## Prerequisites
+Ensure that Node.js (version [specific version number] or higher) and npm (Node Package Manager) are installed on your system. Visit the Node.js official website to download the appropriate installer for your operating system (e.g., Windows, Mac, Linux). Follow the installation wizard prompts, keeping default settings to complete the installation quickly. Verify the installations by running node -v and npm -v in your terminal; these commands should return the respective version numbers. If your npm version is outdated, upgrade it using npm install -g npm to ensure access to the latest features and security patches. npm typically installs automatically with Node.js and is used to manage project dependencies.
+
