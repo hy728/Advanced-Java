@@ -27,7 +27,6 @@ If you need additional support, please navigate to the course page and reach out
 ## FUTURE USE
 Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
 
-![这是图片](Docker_Container_Stats.png "Magic Gardens")
 
 Project Introduction
 Background
@@ -40,10 +39,63 @@ Function Overview
 Room Management: The system provides hotel administrators with a comprehensive set of tools to manage room information. They can add, edit, or delete room details, including room numbers, room types, prices, and availability status. Based on maintenance schedules or other factors, administrators can mark rooms as available or unavailable in real - time.
 Reservation Handling: Guests can easily search for available rooms by specifying their check - in and check - out dates. The application will display a list of all available rooms along with their corresponding prices and room types. Guests can then make reservations directly through the platform, and hotel staff can manage these reservations, including confirming, modifying, or canceling them.
 Multilingual Support: To cater to international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and use the application. This feature ensures that guests from different cultural backgrounds can easily understand and interact with the application.
-Unit and End - to - End Testing: The application comes with built - in support for unit and end - to - end testing. Developers can run unit tests using ng test via [Karma](https://karma - runner.github.io), and end - to - end tests using ng e2e after adding the necessary testing package. (Author: [liyouyang])
+Unit and End - to - End Testing: The application comes with built - in support for unit and end - to - end testing. Developers can run unit tests using ng test via [Karma](https://karma - runner.github.io), and end - to - end tests using ng e2e after adding the necessary testing package. (Author: [李悠扬])
+
+# Project Introduction
+
+## Background
+In the hospitality industry, efficient management of hotel rooms and reservations is crucial for providing high - quality services to guests. The Landon Hotel, aiming to streamline its operations and enhance customer experience, has initiated the development of this application. As the market becomes more competitive, the hotel needs a comprehensive system to manage room availability, handle reservations, and provide a user - friendly interface for guests to search and book rooms. This project is developed to meet these needs and adapt to the digital transformation trend in the hospitality industry. (Author: [Your Name])
+
+## Objectives
+1. **Enhanced Operational Efficiency**: Automate the process of room management and reservation handling, reducing manual errors and saving time for hotel staff.
+2. **Improved Customer Experience**: Provide guests with an easy - to - use platform to search for available rooms, view room details, and make reservations at any time.
+3. **Data - Driven Decision Making**: Collect and analyze data related to room occupancy, reservation patterns, and customer preferences to support strategic decision - making for the hotel. (Author: [Your Name])
+
+## Function Overview
+1. **Room Management**: The system allows hotel administrators to manage room information, including room numbers, prices, and room types. They can also mark rooms as available or unavailable based on maintenance schedules or other factors.
+2. **Reservation Handling**: Guests can search for available rooms by specifying check - in and check - out dates. The system will display all available rooms and their prices. Guests can then make reservations directly through the platform. Hotel staff can also manage reservations, including confirming, modifying, or canceling them.
+3. **Multilingual Support**: To cater to international guests, the application provides multilingual support. Guests can choose their preferred language to view welcome messages and use the application. (Author: [李悠扬])
+
+Commit Message
+"Review and improvement of the English README project introduction, enhancing language accuracy and clarity."
+
+# Project Introduction
+
+## Background
+In the highly competitive hospitality sector, efficient management of hotel rooms and reservations is of utmost importance for delivering superior services to guests. The Landon Hotel, in an effort to optimize its operations and elevate the customer experience, has embarked on the development of this application. With the intensifying market competition, the hotel requires a comprehensive system that can effectively manage room availability, handle reservations, and offer a user - friendly interface for guests to search and book rooms. This project is designed to address these requirements and keep pace with the digital transformation trend in the hospitality industry. (Author: [Your Name])
+
+## Objectives
+1. **Enhanced Operational Efficiency**: Automate the room management and reservation handling processes to minimize manual errors and save valuable time for hotel staff.
+2. **Improved Customer Experience**: Provide guests with an intuitive platform that enables them to effortlessly search for available rooms, view detailed room information, and make reservations at their convenience.
+3. **Data - Driven Decision Making**: Gather and analyze data on room occupancy, reservation trends, and customer preferences to support informed strategic decision - making for the hotel. (Author: [Your Name])
+
+## Function Overview
+1. **Room Management**: The system empowers hotel administrators to manage room details such as room numbers, prices, and room categories. They can also update the room availability status based on maintenance schedules or other relevant factors.
+2. **Reservation Handling**: Guests can search for available rooms by specifying their check - in and check - out dates. The system will promptly display all available rooms along with their corresponding prices. Guests can then make reservations directly through the platform. Hotel staff can manage reservations comprehensively, including confirmation, modification, and cancellation.
+3. **Multilingual Support**: To accommodate international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and utilize the application seamlessly. (Author: [Your Name])
+
+(Author: [李悠扬])
+# Installation and Deployment
+(Author: [陆玟颖])
+## Prerequisites
+- **Node.js**：Version [specific version number] or higher. Visit the 【Node.js official website】((https://nodejs.org/)) to download the installer for your OS (e.g., Windows, Mac, Linux). Follow the setup wizard, keeping default settings for a quick installation.
+- **npm**：npm (Node Package Manager) is the package management and distribution tool for Node.js, typically included with Node.js installations. It is used to install and manage project dependencies. In most cases, npm is automatically provided when you install Node.js.
+- **Database**：[Database Name] [Version Number]. When configuring database connection information, the following key parameters must be specified:
+
+-- **Password**:
+-- **Host Address**: Typically localhost (for a local server). If the database is hosted remotely, use the corresponding IP address.
+
+-- **Port Number**: Default ports vary by database (e.g., 3306 for MySQL, 5432 for PostgreSQL). Configure according to your setup.
+
+-- **Database Name**:: The name of the database instance you created earlier.
+
+-- **Username**:: The username used to log in to the database (set during installation).
+
+-- **Password**: The password associated with the username.
+(Author: [陆玟颖])
 
 
-##MAIN FEATURES AND TUTORIALS
+## MAIN FEATURES AND TUTORIALS
 # 1. Prerequisites
 - **Java**: Ensure you have Java 17 installed on your system.
 - **Node.js and npm**: Required for running the Angular front - end. You can download them from Node.js official website https://nodejs.org/.
@@ -51,7 +103,7 @@ Unit and End - to - End Testing: The application comes with built - in support f
 - **Git**: For cloning the project. Install it from Git official website.https://git-scm.com/
 
 # 2. Cloning the Project
-1. Open Git Bash or your preferred terminal: Navigate to the directory where you want to clone the project.(Author: [pangyadan])
+1. Open Git Bash or your preferred terminal: Navigate to the directory where you want to clone the project.(Author: [庞雅丹])
 2. Clone the repository: Run the following command:
 
 ```bash
@@ -147,63 +199,4 @@ ng serve
 # 7. Stopping the Application
 - Stop the Spring Boot application: Press `Ctrl + C` in the terminal where the Spring Boot application is running.
 - Stop the Angular development server: Press `Ctrl + C` in the terminal where the Angular development server is running.
-  (Author: [pangyadan])
-
-
-
-
-Commit Message
-"Initial commit of the English README project introduction, including background, objectives, and function overview."
-Code Changes
-markdown
-# Project Introduction
-
-## Background
-In the hospitality industry, efficient management of hotel rooms and reservations is crucial for providing high - quality services to guests. The Landon Hotel, aiming to streamline its operations and enhance customer experience, has initiated the development of this application. As the market becomes more competitive, the hotel needs a comprehensive system to manage room availability, handle reservations, and provide a user - friendly interface for guests to search and book rooms. This project is developed to meet these needs and adapt to the digital transformation trend in the hospitality industry. (Author: [Your Name])
-
-## Objectives
-1. **Enhanced Operational Efficiency**: Automate the process of room management and reservation handling, reducing manual errors and saving time for hotel staff.
-2. **Improved Customer Experience**: Provide guests with an easy - to - use platform to search for available rooms, view room details, and make reservations at any time.
-3. **Data - Driven Decision Making**: Collect and analyze data related to room occupancy, reservation patterns, and customer preferences to support strategic decision - making for the hotel. (Author: [Your Name])
-
-## Function Overview
-1. **Room Management**: The system allows hotel administrators to manage room information, including room numbers, prices, and room types. They can also mark rooms as available or unavailable based on maintenance schedules or other factors.
-2. **Reservation Handling**: Guests can search for available rooms by specifying check - in and check - out dates. The system will display all available rooms and their prices. Guests can then make reservations directly through the platform. Hotel staff can also manage reservations, including confirming, modifying, or canceling them.
-3. **Multilingual Support**: To cater to international guests, the application provides multilingual support. Guests can choose their preferred language to view welcome messages and use the application. (Author: [liyouyang])
-
-Commit Message
-"Review and improvement of the English README project introduction, enhancing language accuracy and clarity."
-
-# Project Introduction
-
-## Background
-In the highly competitive hospitality sector, efficient management of hotel rooms and reservations is of utmost importance for delivering superior services to guests. The Landon Hotel, in an effort to optimize its operations and elevate the customer experience, has embarked on the development of this application. With the intensifying market competition, the hotel requires a comprehensive system that can effectively manage room availability, handle reservations, and offer a user - friendly interface for guests to search and book rooms. This project is designed to address these requirements and keep pace with the digital transformation trend in the hospitality industry. (Author: [Your Name])
-
-## Objectives
-1. **Enhanced Operational Efficiency**: Automate the room management and reservation handling processes to minimize manual errors and save valuable time for hotel staff.
-2. **Improved Customer Experience**: Provide guests with an intuitive platform that enables them to effortlessly search for available rooms, view detailed room information, and make reservations at their convenience.
-3. **Data - Driven Decision Making**: Gather and analyze data on room occupancy, reservation trends, and customer preferences to support informed strategic decision - making for the hotel. (Author: [Your Name])
-
-## Function Overview
-1. **Room Management**: The system empowers hotel administrators to manage room details such as room numbers, prices, and room categories. They can also update the room availability status based on maintenance schedules or other relevant factors.
-2. **Reservation Handling**: Guests can search for available rooms by specifying their check - in and check - out dates. The system will promptly display all available rooms along with their corresponding prices. Guests can then make reservations directly through the platform. Hotel staff can manage reservations comprehensively, including confirmation, modification, and cancellation.
-3. **Multilingual Support**: To accommodate international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and utilize the application seamlessly. (Author: [Your Name])
-
-(Author: [陆玟颖])
-# Installation and Deployment
-## Prerequisites
-- **Node.js**：Version [specific version number] or higher. Visit the 【Node.js official website】((https://nodejs.org/)) to download the installer for your OS (e.g., Windows, Mac, Linux). Follow the setup wizard, keeping default settings for a quick installation.
-- **npm**：npm (Node Package Manager) is the package management and distribution tool for Node.js, typically included with Node.js installations. It is used to install and manage project dependencies. In most cases, npm is automatically provided when you install Node.js.
-- **Database**：[Database Name] [Version Number]. When configuring database connection information, the following key parameters must be specified:
-
--- **Password**:
--- **Host Address**: Typically localhost (for a local server). If the database is hosted remotely, use the corresponding IP address.
-
--- **Port Number**: Default ports vary by database (e.g., 3306 for MySQL, 5432 for PostgreSQL). Configure according to your setup.
-
--- **Database Name**:: The name of the database instance you created earlier.
-
--- **Username**:: The username used to log in to the database (set during installation).
-
--- **Password**: The password associated with the username.
-(Author: [陆玟颖])
+  (Author: [庞雅丹])
