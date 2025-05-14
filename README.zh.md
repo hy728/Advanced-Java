@@ -76,56 +76,90 @@
 （作者：[陆玟颖]）
 
 ## 主要功能和教程
+（作者：[庞雅丹]）
 1. 前提条件
-Java：确保系统已安装 Java 17。
-Node.js 和 npm：运行 Angular 前端需要。可从 Node.js 官网（https://nodejs.org/）下载。
-Maven：用于构建 Java 项目。可从 Apache Maven 官网（https://maven.apache.org/）下载。
-Git：用于克隆项目。从 Git 官网（https://git-scm.com/）安装。
+# Java：
+确保系统已安装 Java 17。
+# Node.js 和 npm：
+运行 Angular 前端需要。可从 Node.js 官网（https://nodejs.org/）下载。
+# Maven：
+用于构建 Java 项目。可从 Apache Maven 官网（https://maven.apache.org/）下载。
+# Git：
+用于克隆项目。从 Git 官网（https://git-scm.com/）安装。
+
 2. 克隆项目
-打开 Git Bash 或首选终端：导航至想克隆项目的目录。
-克隆仓库：运行以下命令：
+# 打开 Git Bash 或首选终端：
+导航至想克隆项目的目录。
+# 克隆仓库：
+# 运行以下命令：
 git clone <仓库地址>
+![图片描述](images/screenshot1.png)
+# 注意：
+将 <repository-url>（仓库网址占位符）替换为 Git 仓库的实际网址。
 
 3. 构建项目
 3.1 Java 后端
-导航至项目根目录：在项目根目录打开终端。
-使用 Maven 构建 Java 项目：运行以下命令：
-在 Maven 工具窗口的工具栏中：
+# 导航至项目根目录：
+在项目根目录打开终端。
+# 使用 Maven 构建 Java 项目：
+# 运行以下命令：
+# 在 Maven 工具窗口的工具栏中：
 点击下载源代码和文档图标（该图标通常是向下箭头或包含 ↓ 符号）。
 
-或者通过右键菜单：
+# 或者通过右键菜单：
 右键点击项目的根节点（或特定模块），选择 Maven > 下载源代码和文档。
 mvn clean install
+![图片描述](images/screenshot3.png)
 
 3.2 Angular 前端 --by pangyadan
-导航至前端目录：打开新终端，导航至 src/main/UI 目录。
-安装依赖项：运行以下命令：
+# 导航至前端目录：
+打开新终端，导航至 src/main/UI 目录。
+# 安装依赖项：
+# 运行以下命令：
 npm install
+![图片描述](images/screenshot5.png)
+
+# 确保已全局安装 Angular CLI（命令行工具）
+# 安装 Angular CLI
+# 通过 npm（Node.js 包管理器）全局安装 Angular CLI：
+npm install -g @angular/cli  
+![图片描述](images/screenshot5.png)
+
+# 构建 Angular 项目：
+# 运行以下命令：
+ng build
+![图片描述](images/screenshot6.png)
 
 4. 运行应用程序
-4.1 启动 Java 后端
-导航至项目根目录：在项目根目录打开终端。
-运行 Spring Boot 应用程序：运行以下命令：
+1. 启动 Java 后端
+# 导航至项目根目录：
+在项目根目录打开终端。
+# 运行 Spring Boot 应用程序：
+# 运行以下命令：
 mvn spring-boot:run
+![图片描述](images/screenshot2.png)
 
-4.2 启动 Angular 前端
-导航至前端目录：打开新终端，导航至 src/main/UI 目录。
+2. 启动 Angular 前端
+# 导航至前端目录：
+打开新终端，导航至 src/main/UI 目录。
 ng serve
 注意：Angular 应用程序将在 http://localhost:4200 上可用。
-
+![图片描述](images/screenshot7.png)
 
 5. 使用酒店预订系统
 5.1 预订房间
 在浏览器中打开应用程序：在 Web 浏览器中访问 http://localhost:4200。
+![图片描述](images/screenshot8.png)
 输入入住和退房日期：在 "预订房间" 表单中填写入住和退房日期。
 点击 "提交" 按钮：输入日期后，点击 "提交" 按钮。
 注意：应用程序将根据所选日期显示可用房间。
+![图片描述](images/screenshot9.png)
 
 5.2 预订房间 
 选择房间：在 "可用房间" 部分，找到想要预订的房间。
 点击 "预订" 按钮：点击所选房间旁边的 "预订" 按钮。
 注意：这将为所选房间创建预订。
-
+![图片描述](images/screenshot10.png)
 
 6. 多线程语言翻译和货币兑换
 语言翻译：应用程序支持多线程语言翻译。应用程序启动时，您可以看到不同语言的欢迎消息。
