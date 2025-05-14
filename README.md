@@ -42,6 +42,116 @@ Reservation Handling: Guests can easily search for available rooms by specifying
 Multilingual Support: To cater to international guests, the application offers multilingual support. Guests can select their preferred language to view welcome messages and use the application. This feature ensures that guests from different cultural backgrounds can easily understand and interact with the application.
 Unit and End - to - End Testing: The application comes with built - in support for unit and end - to - end testing. Developers can run unit tests using ng test via [Karma](https://karma - runner.github.io), and end - to - end tests using ng e2e after adding the necessary testing package. (Author: [liyouyang])
 
+
+##MAIN FEATURES AND TUTORIALS
+# 1. Prerequisites
+- **Java**: Ensure you have Java 17 installed on your system.
+- **Node.js and npm**: Required for running the Angular front - end. You can download them from Node.js official website https://nodejs.org/.
+- **Maven**: Used for building the Java project. You can download it from Apache Maven official website.https://maven.apache.org/
+- **Git**: For cloning the project. Install it from Git official website.https://git-scm.com/
+
+# 2. Cloning the Project
+1. Open Git Bash or your preferred terminal: Navigate to the directory where you want to clone the project.(Author: [pangyadan])
+2. Clone the repository: Run the following command:
+
+```bash
+git clone <repository-url>
+```
+![图片描述](images/screenshot1.png)
+
+** Note**: Replace `<repository-url>` with the actual URL of the Git repository.
+
+# 3. Building the Project
+
+## 3.1 Java Back - end
+1. Navigate to the project root directory: Open a terminal in the project root directory.
+2. Build the Java project using Maven: Run the following command:
+   3.In the toolbar of the Maven tool window:
+   Click the Download Sources and Documentation icon (the icon is usually a down arrow or contains a ↓ symbol).
+   Maven Download Sources Icon
+   Or via the context menu:
+   Right-click on the root node of the project (or a specific module) and select Maven > Download Sources and Documentation.
+```bash
+mvn clean install
+```
+![图片描述](images/screenshot3.png)
+
+
+**Note**: This command will clean the previous build artifacts and then compile, test, and package the Java project.
+
+## 3.2 Angular Front - end  --by pangyadan
+1. Navigate to the front - end directory: Open a new terminal and navigate to the `src/main/UI` directory.
+2. Install the dependencies: Run the following command:
+```bash
+npm install
+```
+![图片描述](images/screenshot5.png)
+
+3.Ensure that the Angular CLI is installed globally (command line tool) Install the Angular CLI
+Install Angular CLI globally via npm (Node.js package manager):
+```bash
+npm install -g @angular/cli
+```
+![图片描述](images/screenshot5.png)
+4. Build the Angular project: Run the following command:
+```bash
+ng build
+```
+![图片描述](images/screenshot6.png)
+
+**Note**: The build artifacts will be stored in the `dist/` directory.
+
+# 4. Running the Application
+
+## 4.1 Starting the Java Back - end
+1. Navigate to the project root directory: Open a terminal in the project root directory.
+2. Run the Spring Boot application: Run the following command:
+```bash
+mvn spring - boot:run
+```
+![图片描述](images/screenshot2.png)
+
+**Note**: This will start the Spring Boot application on the default port (usually 8080).
+
+## 4.2 Starting the Angular Front - end
+1. Navigate to the front - end directory: Open a new terminal and navigate to the `src/main/UI` directory.
+2. Start the Angular development server: Run the following command:
+```bash
+ng serve
+```
+**Note**: The Angular application will be available at `http://localhost:4200`.
+![图片描述](images/screenshot7.png)
+# 5. Using the Hotel Reservation System
+
+## 5.1 Booking a Room
+1. Open the application in your browser: Go to `http://localhost:4200` in your web browser.
+   ![图片描述](images/screenshot8.png)
+2. Enter check - in and check - out dates: Fill in the check - in and check - out dates in the "Book a Room" form.
+3. Click the "Submit" button: After entering the dates, click the "Submit" button.
+   **Note**: The application will display the available rooms based on the selected dates.(Author: [pangyadan])
+   ![图片描述](images/screenshot9.png)
+
+## 5.2 Reserving a Room --by pangyadan
+1. Select a room: In the "Available Rooms" section, find the room you want to reserve.
+2. Click the "Reserve" button: Click the "Reserve" button next to the selected room.
+   **Note**: This will create a reservation for the selected room.
+   ![图片描述](images/screenshot10.png)
+
+
+# 6. Multithreaded Language Translation and Currency Exchange
+- **Language Translation**: The application supports multithreaded language translation. You can see welcome messages in different languages when the application starts.
+  **Note**: The English and French welcome messages are displayed using multithreaded programming.
+- **Currency Exchange**: The prices of the rooms are displayed in different currencies (USD, CAD, EUR).
+  **A Note**: This provides a convenient way for users from different countries to view the prices.
+
+# 7. Stopping the Application
+- Stop the Spring Boot application: Press `Ctrl + C` in the terminal where the Spring Boot application is running.
+- Stop the Angular development server: Press `Ctrl + C` in the terminal where the Angular development server is running.
+  (Author: [pangyadan])
+
+
+
+
 Commit Message
 "Initial commit of the English README project introduction, including background, objectives, and function overview."
 Code Changes
